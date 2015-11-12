@@ -1,5 +1,5 @@
 {
-  "name": "webapp",
+  "name": "multi_messenger",
   "version": "1.0.0",
   "description": "a multi messenger",
   "main": "index.js",

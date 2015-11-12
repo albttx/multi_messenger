@@ -1,7 +1,6 @@
 var app = require('app');
 var browse_window = require('browser-window');
 var ipc = require('ipc');
-var fb = require('./fb_mess/index.js').fb_mess
 
 var main_win = null;
 
@@ -29,7 +28,7 @@ function open_messenger(url)
 
 app.on('ready', function()
 {
-    open_messenger(WHATSAPP);
+    open_messenger(FACEBOOK);
 })
 
 // API
