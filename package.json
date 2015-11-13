@@ -2,7 +2,7 @@
   "name": "multi_messenger",
   "version": "1.0.0",
   "description": "a multi messenger",
-  "main": "index.js",
+  "main": "sources/main.js",
   "scripts": {
     "start": "electron ."
   },
@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "electron-prebuilt": "^0.34.3"
+  },
+  "dependencies": {
+    "node-import": "^0.9.2"
   }
 }
