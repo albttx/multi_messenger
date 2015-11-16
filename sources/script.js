@@ -1,5 +1,5 @@
 
-onload = function()
+window.onload = function()
 {
 	var webview = document.getElementById("webview");
 	var indicator = document.querySelector(".indicator");
@@ -10,9 +10,9 @@ onload = function()
 	webview.addEventListener("did-start-loading", loadstart);
 	webview.addEventListener("did-stop-loading", loadstop);
 
-	webview.addEventListener('new-window', function(e)
+	webview.addEventListener('new-window', function(e, url)
 	{
-		  require('electron').shell.openExternal(e.url);
-		//   require('shell').shell.openExternal(e.url);
+		e.preventDefault();
+		  require('electron').shell.openExternal(url);
 	});
 }
