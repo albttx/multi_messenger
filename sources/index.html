@@ -4,19 +4,41 @@
 		<script type="text/javascript" src="./main.js"></script>
 		<link rel="stylesheet" href="style.css"/>
 
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-
+		<script src="script.js"></script>
+		<script src="tabs.js"></script>
 	</head>
 
-	<body>
-		<div id="choosing">
-			<ul>
-				<li> FaceBook </li>
-			</ul>
+<body>
+	<div id="wrapper">
+		<div id="tabContainer">
+			<div class="tabs">
+				<ul>
+					<li id="tabHeader_1">Facebook</li>
+					<li id="tabHeader_2">WhatsApp</li>
+					<li id="tabHeader_3">Slack</li>
+				</ul>
+			</div>
+			 <div class="tabscontent">
+				 <div class="tabpage" id="tabpage_1">
+					 <h2>FB</h2>
+					 <webview id="webview" src="https://www.messenger.com/login/"></webview>
+			     </div>
+			     <div class="tabpage" id="tabpage_2">
+				 	<h2>WhatsApp</h2>
+					<webview id="webview" src="https://web.whatsapp.com/"
+					useragent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.52 Safari/537.36">
+					</webview>
+				</div>
+				<div class="tabpage" id="tabpage_3">
+					<h2>Slack</h2>
+						<center><div class="indicator"></div></center>
+						<webview id="webview" src="https://slack.com/signin"></webview>
+				</div>
+			</div>
 		</div>
 
-		<div>
-			<webview src="https://www.messenger.com/login/" autosize></webview>
-		</div>
-	</body>
+
+	</div>
+
+</body>
 </html>

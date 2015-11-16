@@ -10,7 +10,14 @@ FACEBOOK = "https://www.messenger.com/login/";
 
 app.on('ready', function()
 {
-	tools.open_win("file://" + __dirname + "/index.html");
+	win = tools.open_win("file://" + __dirname + "/index.html");
+});
+
+app.on('window-all-closed', function(){
+
+	if (process.platform !== 'darwin'){
+		app.quit();
+	}
 });
 
 // API
