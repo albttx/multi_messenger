@@ -8,6 +8,9 @@
 
 WhatsApp, Facebook and Slack desktop client for OSX and Windows (didn't try yet), based on their official web app Build with [Electron](http://electron.atom.io/).  
 
+## Download link
+BETA v0.1
+[OSX Download ](https://github.com/ale-batt/multi_messenger/releases/download/v0.1/Multi_Messenger.app.zip)
 
 ## To Use
 
