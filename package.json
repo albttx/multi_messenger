@@ -1,27 +1,29 @@
 {
-  "name": "electron-quick-start",
+  "name": "multi_messenger",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A multi messenger desktop application",
   "main": "sources/main.js",
-  "scripts": {
+  "scripts":
+  {
     "start": "electron ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atom/electron-quick-start.git"
+    "url": "git+https://github.com/ale-batt/multi_messenger"
   },
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
+    "Messenger",
+    "What's App",
+    "Facebook",
+    "Slack",
+    "multi Messenger"
   ],
-  "author": "GitHub",
+  "author": "ale-batt",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/atom/electron-quick-start/issues"
+    "url": "https://github.com/ale-batt/multi_messenger/issues"
   },
-  "homepage": "https://github.com/atom/electron-quick-start#readme",
+  "homepage": "https://github.com/ale-batt/multi_messenger#readme",
   "devDependencies": {
     "electron-prebuilt": "^0.34.0"
   }
