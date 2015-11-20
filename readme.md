@@ -28,7 +28,7 @@ npm start
 - Possibility to add many slack account
 If you have any idea ! Please tell me or fork me :)
 
-Based with the [Electron-Quick-Start](https://github.com/atom/electron-quick-start)
+Based with [Electron-Quick-Start](https://github.com/atom/electron-quick-start)
 
 This is **NOT** an official product.
 
