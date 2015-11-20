@@ -1,18 +1,18 @@
 
-window.onload = function()
+// var remote = require('remote');
+// var app = remote.require('app');
+// var ipc = require('ipc');
+// var shell = require('shell');
+
+var webview = document.getElementById("webview");
+
+console.log(webview);
+
+webview.addEventListener("dom-ready", function()
 {
-	var webview = document.getElementById("webview");
-	var indicator = document.querySelector(".indicator");
-
-	var loadstart = function() { indicator.innerText = "loading..."; }
-	var loadstop = function() { indicator.innerText = ""; }
-
-	webview.addEventListener("did-start-loading", loadstart);
-	webview.addEventListener("did-stop-loading", loadstop);
-
-	webview.addEventListener('new-window', function(e, url)
+	webview.addEventListener('new-window', function(e)
 	{
-		e.preventDefault();
-		  require('electron').shell.openExternal(url);
+		require('remote').require('shell').shell.openExternal(e.url);
+		// require('electron').shell.openExternal(e.url);
 	});
-}
+});
