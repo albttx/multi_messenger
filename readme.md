@@ -10,9 +10,9 @@ WhatsApp, Facebook and Slack desktop client for OSX and Windows (didn't try yet)
 
 ## Download link
 BETA v0.1
-[OSX Download ](https://github.com/ale-batt/multi_messenger/releases/download/v0.1/Multi_Messenger.app.zip)
 
-[WIN32 Download](https://github.com/ale-batt/multi_messenger/releases/download/v0.1/Multi_Messenger.exe)
+- [OSX Download ](https://github.com/ale-batt/multi_messenger/releases/download/v0.1/Multi_Messenger.app.zip)
+- [WIN32 Download](https://github.com/ale-batt/multi_messenger/releases/download/v0.1/Multi_Messenger.exe)
 
 ## To Use
 
