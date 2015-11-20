@@ -1,17 +1,28 @@
 {
-  "name": "multi_messenger",
+  "name": "electron-quick-start",
   "version": "1.0.0",
-  "description": "a multi messenger",
+  "description": "A minimal Electron application",
   "main": "sources/main.js",
   "scripts": {
     "start": "electron ."
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "electron-prebuilt": "^0.34.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/electron-quick-start.git"
   },
-  "dependencies": {
-    "node-import": "^0.9.2"
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "GitHub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atom/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/atom/electron-quick-start#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.34.0"
   }
 }
