@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "A multi messenger desktop application",
   "main": "sources/main.js",
-  "scripts":
-  {
-    "start": "electron ."
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . Multi_Messenger --ignore=node_modules/electron-* --platform=darwin --arch=x64 --version=0.27.2 && cp assets/logo.icns Multi_Messenger-darwin-x64/Multi_Messenger.app/Contents/Resources/atom.icns"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/ale-batt/multi_messenger#readme",
   "devDependencies": {
+    "electron-packager": "^5.1.1",
     "electron-prebuilt": "^0.34.0"
   }
 }
