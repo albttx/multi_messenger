@@ -17,7 +17,7 @@ npm start
 ```
 ## Possibility
 
-- Change Facebook to WhatsApp messenger as you with
+- Change Facebook to WhatsApp to Slack
 - Click on link and open it in your <3 navigator
 - Desktop notification
 - Remember you !
