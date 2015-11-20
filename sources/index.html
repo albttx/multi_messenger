@@ -4,7 +4,6 @@
 		<script type="text/javascript" src="./main.js"></script>
 		<link rel="stylesheet" href="style.css"/>
 
-		<script type="text/javascript" src="js/tabs.js"></script>
 	</head>
 
 <body>
@@ -12,9 +11,15 @@
 		<div id="tabContainer">
 			<div class="tabs">
 				<ul>
-					<li id="tabHeader_1">Facebook</li>
-					<li id="tabHeader_2">WhatsApp</li>
-					<li id="tabHeader_3">Slack</li>
+					<li id="tabHeader_1">
+						<img class="logo" src="../assets/facebook_logo.png"/>
+					</li>
+					<li id="tabHeader_2">
+						<img class="logo" src="../assets/whatsapp_logo.png"/>
+					</li>
+					<li id="tabHeader_3">
+						<img class="logo" src="../assets/slack_logo.png"/>
+					</li>
 				</ul>
 			</div>
 			 <div class="tabscontent">
@@ -27,7 +32,7 @@
 					</webview>
 				</div>
 				<div class="tabpage" id="tabpage_3">
-						<webview id="webview" src="https://slack.com/signin"></webview>
+					<webview id="webview" src="https://slack.com/signin"></webview>
 				</div>
 			</div>
 		</div>
@@ -35,5 +40,6 @@
 	</div>
 
 </body>
+		<script type="text/javascript" src="js/tabs.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
 </html>
