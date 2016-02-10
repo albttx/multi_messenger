@@ -25,7 +25,7 @@ npm run buildwin
 - Click on link and open it in your <3 navigator
 - Desktop notification
 - Remember you !
-- **(working on it)** Drag and Drop file to send
+- Drag and Drop file to send
 
 ## Some Idea
 - Shortcut command to altern between the different messenger
