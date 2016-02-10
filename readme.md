@@ -32,6 +32,10 @@ npm run buildwin
 - Possibility to add many slack account
 If you have any idea ! Please tell me or fork me :)
 
+## TO DO
+- Resolve when build drag and drop error
+- on window copy / paste error ??
+
 Based with [Electron-Quick-Start](https://github.com/atom/electron-quick-start)
 
 This is **NOT** an official product.
