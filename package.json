@@ -1,32 +1,32 @@
 {
-  "name": "multi_messenger",
-  "version": "1.0.0",
-  "description": "A multi messenger desktop application",
-  "main": "sources/main.js",
-  "scripts": {
-    "start": "electron .",
-    "build": "electron-packager . Multi_Messenger --ignore=node_modules/electron-* --platform=darwin --arch=x64 --version=0.27.2 && cp assets/logo.icns Multi_Messenger-darwin-x64/Multi_Messenger.app/Contents/Resources/atom.icns",
-    "buildwin": "electron-packager . Multi_Messenger --ignore=node_modules/electron-* --platform=win32 --arch=ia32 --version=0.30.0 && cp assets/logo.icns Multi_Messenger-darwin-x64/Multi_Messenger.app/Contents/Resources/atom.icns"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ale-batt/multi_messenger"
-  },
-  "keywords": [
-    "Messenger",
-    "What's App",
-    "Facebook",
-    "Slack",
-    "multi Messenger"
-  ],
-  "author": "ale-batt",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ale-batt/multi_messenger/issues"
-  },
-  "homepage": "https://github.com/ale-batt/multi_messenger#readme",
-  "devDependencies": {
-    "electron-packager": "^5.1.1",
-    "electron-prebuilt": "^0.34.0"
+	"name": "multi_messenger",
+	"version": "1.0.0",
+	"description": "A multi messenger desktop application",
+	"main": "sources/main.js",
+	"scripts": {
+		"start": "electron .",
+		"build": "electron-packager . Multi_Messenger --ignore=node_modules/electron-* --platform=darwin --arch=x64 --version=0.27.2 && cp assets/logo.icns Multi_Messenger-darwin-x64/Multi_Messenger.app/Contents/Resources/atom.icns",
+		"buildwin": "electron-packager . Multi_Messenger --ignore=node_modules/electron-* --platform=win32 --arch=ia32 --version=0.30.0 && cp assets/logo.icns Multi_Messenger-darwin-x64/Multi_Messenger.app/Contents/Resources/atom.icns"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ale-batt/multi_messenger"
+	},
+	"keywords": [
+		"Messenger",
+		"What's App",
+		"Facebook",
+		"Slack",
+		"multi Messenger"
+	],
+	"author": "ale-batt",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ale-batt/multi_messenger/issues"
+	},
+	"homepage": "https://github.com/ale-batt/multi_messenger#readme",
+	"devDependencies": {
+		"electron-packager": "^5.1.1",
+		"electron-prebuilt": "^0.34.0"
   }
 }
