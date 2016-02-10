@@ -12,7 +12,7 @@ WhatsApp, Facebook and Slack desktop client for OSX and Windows (didn't try yet)
 npm install
 npm start
 ```
-or to buid
+## To buid
 ```
 # Build on OSX
 npm run build
